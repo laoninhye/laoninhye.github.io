@@ -1,0 +1,270 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: inherit;
+}
+
+html {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: white;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+
+code,
+pre {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+  font-family: monospace;
+}
+
+a{
+/*  color: unset;*/
+  text-decoration: none;
+}
+
+a:visited, a:hover{
+/*  color: unset;*/
+  text-decoration: none;
+}
+
+/*자기코드*/
+
+html{
+	background-color: black;
+}
+
+body{
+font-family: 'Noto Serif KR', serif;
+word-break: keep-all;
+}
+
+
+header{
+	position: fixed;
+	color: gold;
+	font-size: 18px;
+	width: 100%;
+	height: 45px;
+	background-color: black;
+	padding: 12px;
+	z-index: 1;
+	border-bottom: 1px solid;
+}
+
+.wrapper{
+	color: floralwhite;
+	position: relative;
+	top: 50px;
+	padding: 10px;
+	height: calc(100vh - 50px);
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.wrapper > div{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+	margin-left: 0.9%;
+/*	margin-right: 0.6%;*/
+	height: 100%;
+	padding: 10px;
+	border: 1px solid #fff;
+	overflow: hidden;
+}
+
+.year1{
+	position: absolute;
+	color: white;
+	font-size: 18px;
+	width: 100%;
+	height: 42px;
+	margin: -10px;
+	padding-left: 5px;
+	padding-top: 5px;
+	background-color: black;
+	z-index: 1;
+	border-bottom: 1px solid #fff;
+
+}
+
+.year2{
+	position: absolute;
+	color: white;
+	font-size: 18px;
+	width: 100%;
+	height: 42px;
+	margin: -10px;
+	padding-left: 5px;
+	padding-top: 5px;
+	background-color: black;
+	z-index: 1;
+	border-bottom: 1px solid #fff;
+
+}
+
+.year3{
+	position: absolute;
+	color: white;
+	font-size: 18px;
+	width: 100%;
+	height: 42px;
+	margin: -10px;
+	padding-left: 5px;
+	padding-top: 5px;
+	background-color: black;
+	z-index: 1;
+	border-bottom: 1px solid #fff;
+
+}
+
+.diary{
+	position: absolute;
+	top: 45px;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 50px;
+	overflow: auto;
+}
+
+.list{
+	color: lightgray;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 2;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+.title{
+	color: ghostwhite;
+	font-weight: 500;
+	font-size: 16px;
+	border-top: 10px;
+	border-bottom: 10px;
+}
+
+.one{
+	padding-left: 15px;
+	padding-right: 20px;
+	font-style: italic;
+}
+
+.two{
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom:12px;
+}
+
+.imp{
+	color: gold;
+}
+
+#show1{
+	display: none;
+}
+
+.imp:hover + #show1{
+	display: block
+}
+
+a{
+	color: gold;
+}
+
+.text{
+	font-style: italic;
+}
